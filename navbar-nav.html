@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar-Nav</title>
+    <script src="https://unpkg.com/@popperjs/core@2 "></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <!-- Navbar classes -->
+
+    <nav class="navbar navbar-light navbar-expand-md bg-light">
+        <div class="navbar-brand">BabarWrites</div>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav  mr-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link pr-3">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle pr-3" data-toggle="dropdown">Course</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Link One</a>
+                        <a href="#" class="dropdown-item">Link Two</a>
+                        <a href="#" class="dropdown-item">Link Three</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link pr-3">About</a>
+                </li>
+            </ul>
+            <form action="" class="form-inline">
+                <input type="search" placeholder="Search" class="form-control">
+                <button class="btn btn-outline-danger ml-2">Search</button>
+            </form>
+        </div>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollspy</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <style>
+        #section1 {
+            background-color: red;
+        }
+
+        #section2 {
+            background-color: greenyellow;
+        }
+
+        #section3 {
+            background-color: lightblue;
+        }
+
+        #section4 {
+            background-color: yellow;
+        }
+        body {
+            height: 92vh;
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#myNav">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <nav class="nav" id="myNav">
+                    <ul class="navbar-nav">
+                        <a href="#" class="navbar-brand">BabarWrites</a>
+                        <li class="nav-item active bg-dark ">
+                            <a href="#section1" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#section2" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#section3" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#section4" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-9" style="overflow: auto;">
+                <div class="container-fluid" id="section1">
+                    <h2>Section One</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente deserunt cupiditate
+                        optio laborum, in, eveniet nemo eum tenetur, nam tempore culpa sequi vel. Dicta reprehenderit
+                        impedit asperiores eveniet cumque consequuntur minima est quod. A architecto expedita vitae
+                        temporibus earum? Atque inventore, dignissimos repudiandae quibusdam eaque doloremque autem ea,
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        in mollitia nostrum quibusdam eaque obcaecati, placeat sed facilis quod, soluta fuga harum omnis
+                        temporibus earum? Atque inventoEum ad necessitatibus voluptas
+                        in mollitia nostrum quibusdam eaque obcaecati, placeat sed facilis quod, soluta fuga harum omnis
+                        temporibus earum? Atque inventore, dignissimos repudiandae quibusdam eaque doloremque autem ea,
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        temporibus earum? Atque inventore, dignissimos repudiandae quibusdam eaque doloremque autem ea,
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        temporibus earum? Atque inventore, dignissimos repudiandae quibusdam eaque doloremque autem ea,
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        temporibus earum? Atque inventore, dignissimos repudiandae quibusdam eaque doloremque autem ea,
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        in mollitia nostrum quibusdam eaque obcaecati, placeat sed facilis quod, soluta fuga harum omnis
+                        sint aperiam consectetur consequatur laborum accusamus repellendus culpa dicta. Laborum
+                        molestias ipsam incidunt nemo architecto eaque quasi deserunt veniam laboriosam alias dolores,
+                        culpa, quae accusamus.</p>
+                </div>
+                <div class="container-fluid" id="section2">
+                    <h2>Section Two</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente deserunt cupiditate
+                        optio laborum, in, eveniet nemo eum tenetur, nam tempore culpa sequi vel. Dicta reprehenderit
+                        impedit asperiores eveniet cumque consequuntur minima est quod. A architecto expedita vitae
+                        temporibus earum? Atque inventore, dignissimos repudiandae quibusdam eaque doloremque autem ea,
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        impedit asperiores eveniet cumque consequuntur minima est quod. A architecto expedita vitae
+                        temporibus earum? Atque inventore, dignissimos repudiandae quibusdam eaque doloremque autem ea,
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        temporibus earum? Atque inventore, dignissimos repudiandae quibusdam eaque doloremque autem ea,
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        impedit asperiores eveniet cumque consequuntur minima est quod. A architecto expedita vitae
+                        temporibus earum? Atque inventore, dignissimos repudiandae quibusdam eaque doloremque autem ea,
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        in mollitia nostrum quibusdam eaque obcaecati, placeat sed facilis quod, soluta fuga harum omnis
+                        sint aperiam consectetur consequatur laborum accusamus repellendus culpa dicta. Laborum
+                        molestias ipsam incidunt nemo architecto eaque quasi deserunt veniam laboriosam alias dolores,
+                        culpa, quae accusamus.</p>
+                </div>
+                <div class="container-fluid" id="section3">
+                    <h2>Section Three</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente deserunt cupiditate
+                        optio laborum, in, eveniet nemo eum tenetur, nam tempore culpa sequi vel. Dicta reprehenderit
+                        impedit asperiores eveniet cumque consequuntur minima est quod. A architecto expedita vitae
+                        temporibus earum? Atque inventore, dignissimos repudiandae quibusdam eaque doloremque autem ea,
+                        explicabo velit aliquid ed facilis quod, soluta fuga harum omnis
+                        sint aperiam consectetur consequatur laborum accusamus repellendus culpa dicta. Laborum
+                        molestias ipsam incidunt nemo architecto eaque quasi deserunt veniam laboriosam alias dolores,
+                        culpa, quae accusamus.</p>
+                </div>
+                <div class="container-fluid" id="section4">
+                    <h2>Section Four</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente deserunt cupiditate
+                        optio laborum, in, eveniet nemo eum tenetur, nam tempore culpa sequi vel. Dicta reprehenderit
+                        impedit asperiores eveniet cumque consequuntur minima est quod. A architecto expedita vitae
+                        temporibus earum? Atque inventore, dignissimos repudiandae quibusdam eaque doloremque autem ea,
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        in mollitia nostrum quibusdam eaque obcaecati, placeat sed facilis quod, soluta fuga harum omnis
+                        sint aperiam consectetur consequatur laborum accusamus repellendus culpa dicta. Laborum
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente deserunt cupiditate
+                        optio laborum, in, eveniet nemo eum tenetur, nam tempore culpa sequi vel. Dicta reprehenderit
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        in mollitia nostrum quibusdam eaque obcaecati, placeat sed facilis quod, soluta fuga harum omnis
+                        sint aperiam consectetur consequatur laborum accusamus repellendus culpa dicta. Laborum
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente deserunt cupiditate
+                        optio laborum, in, eveniet nemo eum tenetur, nam tempore culpa sequi vel. Dicta reprehenderit
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        in mollitia nostrum quibusdam eaque obcaecati, placeat sed facilis quod, soluta fuga harum omnis
+                        sint aperiam consectetur consequatur laborum accusamus repellendus culpa dicta. Laborum
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente deserunt cupiditate
+                        optio laborum, in, eveniet nemo eum tenetur, nam tempore culpa sequi vel. Dicta reprehenderit
+                        impedit asperiores eveniet cumque consequuntur minima est quod. A architecto expedita vitae
+                        temporibus earum? Atque inventore, dignissimos repudiandae quibusdam eaque doloremque autem ea,
+                        explicabo velit aliquid magni soluta minus veritatis laboriosam. Eum ad necessitatibus voluptas
+                        in mollitia nostrum quibusdam eaque obcaecati, placeat sed facilis quod, soluta fuga harum omnis
+                        sint aperiam consectetur consequatur laborum accusamus repellendus culpa dicta. Laborum
+                        molestias ipsam incidunt nemo architecto eaque quasi deserunt veniam laboriosam alias dolores,
+                        culpa, quae accusamus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
